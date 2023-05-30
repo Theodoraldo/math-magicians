@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 
 function Calculator() {
+  const [value, setValue] = useState(0);
+
   return (
     <div className="container">
-      <div className="output">0</div>
+      <div className="output">{value}</div>
       <div className="buttons">
         <button type="button">AC</button>
         <button type="button">+/-</button>
@@ -24,7 +26,7 @@ function Calculator() {
         <button type="button" className="operator">+</button>
         <button type="button" className="span-2">0</button>
         <button type="button">.</button>
-        <button type="button" className="operator">=</button>
+        <button type="button" className="operator" onClick={() => setValue(value)}>=</button>
       </div>
     </div>
   );
