@@ -1,7 +1,3 @@
-function Calculator() {
-  return (
-    <div>Calculator</div>
-  );
-}
+const Calculator = () => <div>Calculator</div>;
 
 export default Calculator;
