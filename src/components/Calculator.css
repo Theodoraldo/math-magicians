@@ -1,0 +1,34 @@
+.container {
+  margin: 5% auto;
+  width: 30%;
+}
+
+.output {
+  background-color: rgb(133, 134, 148);
+  text-align: right;
+  padding: 20px 5px 20px;
+  font-size: 25px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.operator {
+  background-color: rgb(245, 145, 62);
+}

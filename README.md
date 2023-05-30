@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 # Math-Magicians
 
 <a name="readme-top"></a>
@@ -40,6 +42,9 @@
 
 **Math Magician Project** is calculator built using React. Set up the environment and tools needed to develop a React application.
 
+
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -66,16 +71,16 @@
 </details>
 
 <details>
-  <summary>Webpack</summary>
+  <summary>React</summary>
   <ul>
-    <li><a https="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
 <details>
-<summary>GitHub</summary>
+  <summary>Webpack</summary>
   <ul>
-    <li><a href="https://github.com/">GitHub</a></li>
+    <li><a https="https://webpack.js.org/">Webpack</a></li>
   </ul>
 </details>
 
@@ -86,6 +91,14 @@
 - **[Display Calculator]**
 - **[Performs Arithmetic Operations]**
 - **[API Fetch]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](coming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,9 +129,27 @@ Install this project with:
 - npm install
 - npm start
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- AUTHORS -->
+### Usage
 
+To run the project, execute the following command:
+
+- npm install
+- npm start
+
+### Run tests
+
+To run tests, run the following command:
+
+- npm start
+
+### Deployment
+
+You can deploy this project using:
+-Github pages
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 ## 👥 Theodore <a name="authors"></a>
 
 👤 **Theodore Osei Asimeng**
@@ -128,6 +159,7 @@ Install this project with:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/theodore-asimeng-osei-80075125b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -163,8 +195,24 @@ I would like to thank everyone who contributed to the organisation of this codeb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[I cannot clone your project to my local machine ?]**
+
+  - [Please check whether you have or properly installed node.]
+
+- **[The project cannot be displayed in the browser ?]**
+
+  - [Please run the command npm start in your terminal and make sure that you are in the application folder.]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
