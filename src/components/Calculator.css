@@ -1,5 +1,4 @@
 .container {
-  margin: 5% auto;
   width: 30%;
 }
 
@@ -15,7 +14,7 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
-button {
+.btn-links {
   font-size: 18px;
   padding: 20px;
   border: 1px solid rgb(209, 209, 209);
