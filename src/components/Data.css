@@ -1,24 +1,21 @@
-.btn-submit {
-  background-color: dodgerblue;
-  border: none;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  padding: 10px;
-}
-
-.search-input {
-  padding: 11px;
-  outline: none;
-  font-style: italic;
-  font-weight: bold;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border: none;
-}
-
 .api-content {
   margin-top: 20px;
+}
+
+.quote-container {
+  background-color: hsla(236, 7%, 55%, 0.11);
+  width: 500px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.author {
+  font-style: italic;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.quote {
+  line-height: 25px;
+  font-size: 18px;
 }

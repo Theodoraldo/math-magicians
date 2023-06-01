@@ -4,10 +4,13 @@ import Data from './components/Data';
 
 function App() {
   return (
-    <div className="App">
-      <Data />
-      <Calculator />
-    </div>
+    <>
+      <h1 className="app-name">Math Magicians</h1>
+      <div className="App">
+        <Data />
+        <Calculator />
+      </div>
+    </>
   );
 }
 
