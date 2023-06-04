@@ -1,0 +1,40 @@
+.app-name {
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+}
+
+.nav-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+a:active,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: tomato;
+}
+
+.active,
+.active:hover {
+  background-color: tomato;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+}
