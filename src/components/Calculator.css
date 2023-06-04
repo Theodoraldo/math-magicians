@@ -2,6 +2,10 @@
   width: 30%;
 }
 
+.header {
+  font-size: 25px;
+}
+
 .output {
   background-color: rgb(133, 134, 148);
   text-align: right;
@@ -30,4 +34,15 @@ button:hover {
 
 .operator {
   background-color: rgb(245, 145, 62);
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 50px 30px;
+}
+
+.app-name {
+  margin: 20px;
 }
