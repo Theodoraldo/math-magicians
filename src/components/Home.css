@@ -1,0 +1,14 @@
+.home-page {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.home-head {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  line-height: 2rem;
+  font-size: 18px;
+}
