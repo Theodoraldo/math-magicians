@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Data.css';
+import './Quotes.css';
 
 export default function Data() {
   const [error, setError] = useState('');
@@ -26,11 +26,11 @@ export default function Data() {
 
   return (
     <>
-      {isLoading && <h2>Loading...</h2>}
+      {isLoading && <h2 className="loading">Loading...</h2>}
       {quote && quote.map((quote) => (
         <div className="quote-container" key={quote.author}>
-          <h2 className="author">{quote.author}</h2>
           <p className="quote">{quote.quote}</p>
+          <h4 className="author">{quote.author}</h4>
         </div>
       ))}
       {error !== '' && <h2>{error}</h2>}
