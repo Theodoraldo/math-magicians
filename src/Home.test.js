@@ -1,11 +1,10 @@
-import Home from './components/Home';
 import renderer from 'react-test-renderer';
+import Home from './components/Home';
 
-test("Check Home Component", () => {
+test('Check Home Component', () => {
   const home = renderer.create(
-    <Home />
+    <Home />,
   );
-  let homeTree = home.toJSON();
+  const homeTree = home.toJSON();
   expect(homeTree).toMatchSnapshot();
 });
-
